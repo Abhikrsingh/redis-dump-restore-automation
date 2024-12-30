@@ -1,0 +1,27 @@
+{
+    
+    "instances": [
+        {
+            "host": "host-new-1",
+            "port": 6379,
+            "password": "password",
+            "databases": [3],
+            "file_prefix": "redis_pattern1_",
+            "dump_path": "redisdump/instance-1/2024-12-30",
+            "pattern": "pattern-1*",
+            "limit": null
+        },
+        {
+            "host": "host-new-2",
+            "port": 6379,
+            "password": "password",
+            "databases": [2],
+            "file_prefix": "redis_pattern2_",
+            "dump_path": "redisdump/instance-1/2024-12-30",
+            "pattern": "pattern-2*",
+            "limit": null
+        }
+
+    ]
+
+}

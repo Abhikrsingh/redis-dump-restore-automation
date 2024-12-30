@@ -1,0 +1,37 @@
+{
+    
+    "instances": [
+        {
+            "host": "host-1",
+            "port": 6379,
+            "password": "password",
+            "databases": [3],
+            "file_prefix": "redis_pattern1_",
+            "dump_path": "redisdump/instance-1",
+            "pattern": "pattern-1*",
+            "limit": null
+        },
+        {
+            "host": "host-2",
+            "port": 6379,
+            "password": "password",
+            "databases": [2,3],
+            "file_prefix": "redis_pattern2_",
+            "dump_path": "redisdump/instance-1",
+            "pattern": "pattern-2*",
+            "limit": null
+        },
+        {
+            "host": "host-2",
+            "port": 6379,
+            "password": "password",
+            "databases": [0,1,2,3,4,5,6],
+            "file_prefix": "redis_all_keys_",
+            "dump_path": "redisdump/allKeys",
+            "pattern": null,    
+            "limit": null
+        }
+
+    ]
+
+}
